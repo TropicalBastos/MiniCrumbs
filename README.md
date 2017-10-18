@@ -1,0 +1,31 @@
+# MiniCrumbs
+Super portable, lightweight breadcrumbs library
+
+The way it works is it parses the request URI, ie. /home/about/company into an an iterable array of breadcrumb objects
+so that you can render something like: "Home | About | Company" in your markup with all the necessary links without you
+having to worry about the formatting, names or links.
+
+##Documentation
+
+It's as easy as:
+
+```php
+use MiniCrumbs\MiniCrumbs;
+
+$crumbs = new MiniCrumbs();
+```
+
+This will return you an instance of MiniCrumbs of which you can:
+
+```php
+$crumbsArray = $crumbs->parse();
+```
+
+This will give you an iterable object which you can loop in your templates, 
+though a premade render function is available to the lazier ones:
+
+```php
+$crumbs->render();
+```
+
+Will render the default breadcrumbs markup
