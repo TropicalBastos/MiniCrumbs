@@ -25,5 +25,6 @@
         "classmap": [
             "tests/MiniCrumbsTest.php"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
