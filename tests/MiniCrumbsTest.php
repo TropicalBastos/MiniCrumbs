@@ -1,9 +1,8 @@
 <?php
 
-require "./vendor/autoload.php";
-//require "./src/classes/MiniCrumbs.php";
-
 use PHPUnit\Framework\TestCase;
+use MiniCrumbs\MiniCrumbs;
+use MiniCrumbs\Crumb;
 
 final class MiniCrumbsTest extends TestCase{
 

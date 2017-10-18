@@ -9,13 +9,21 @@
             "email": "ian-bastos@live.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "5.7.*"
     },
     "autoload": {
         "classmap": [
-            "src/"
+            "src/classes/MiniCrumbs.php",
+            "src/classes/Crumb.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/MiniCrumbsTest.php"
         ]
     }
 }

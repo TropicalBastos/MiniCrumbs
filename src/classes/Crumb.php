@@ -1,5 +1,7 @@
 <?php
 
+namespace MiniCrumbs;
+
 class Crumb {
 
     protected $uri;

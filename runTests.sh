@@ -1,3 +1,3 @@
 #!/bin/bash
 
-vendor/bin/phpunit --bootstrap src/classes/MiniCrumbs.php tests/MiniCrumbsTest.php
+vendor/bin/phpunit --bootstrap src/Bootstrap.php tests/MiniCrumbsTest.php

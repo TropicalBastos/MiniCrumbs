@@ -5,7 +5,7 @@
  * Date: 16/10/2017
  */
 
-require("Crumb.php");
+namespace MiniCrumbs;
 
 class MiniCrumbs{
 
