@@ -122,7 +122,11 @@ class MiniCrumbs{
 
         foreach($this->origin as $uri){
             if($uri == "") continue;
-            $currentUri .= ($uri . "/");
+            if($uri != "/"){
+                $currentUri .= "/" . $uri;
+            }else{
+                $currentUri .= ($uri . "/");
+            }
             $result[] = $currentUri;
         }
 
