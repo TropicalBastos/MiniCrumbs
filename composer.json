@@ -1,5 +1,5 @@
 {
-    "name": "minicrumbs",
+    "name": "breadcrumbs/minicrumbs",
     "description": "Portable lightweight breadcrumbs library",
     "type": "library",
     "license": "MIT",
