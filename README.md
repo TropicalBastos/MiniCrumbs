@@ -46,6 +46,3 @@ defaults to ''home' - (string) alias for the first breadcrumb linking to home
 #### Options:
 array of options - developer options for testing e.g ['test' => true]
 
-<br/>
-<br/>
-##### Thank you and feel free to contribute!
