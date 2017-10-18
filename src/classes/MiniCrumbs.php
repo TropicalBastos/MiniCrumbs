@@ -25,7 +25,7 @@ class MiniCrumbs{
        @param options array
    */
 
-    public function __construct($fm, $home = 'home', $options = array())
+    public function __construct($fm = 'standard', $home = 'home', $options = array())
     {
 
         if(in_array('test', $options)){
