@@ -5,7 +5,7 @@ The way it works is it parses the request URI, ie. /home/about/company into an a
 so that you can render something like: "Home | About | Company" in your markup with all the necessary links without you
 having to worry about the formatting, names or links.
 
-##Documentation
+## Examples
 
 It's as easy as:
 
@@ -29,3 +29,16 @@ $crumbs->render();
 ```
 
 Will render the default breadcrumbs markup
+
+## Documentaion
+
+The Minicrumbs constructor takes the following arguments:
+```php
+MiniCrumbs($format = 'standard', $home='home', $options = array())
+```
+
+#### Format: 'upper', 'lower', ''standard' - (string) how the breadcrumbs should be formatted
+#### Home: defaults to ''home' - (string) alias for the first breadcrumb linking to home
+#### options: array of options - developer options for testing e.g ['test' => true]
+
+Thank you and feel free to contribute!
