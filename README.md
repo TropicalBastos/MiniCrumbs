@@ -49,4 +49,4 @@ array of options - developer options for testing e.g ['test' => true]
 <br>
 <br>
 <br>
-##### Thank you and feel free to contribute!
+#### Thank you and feel free to contribute!
