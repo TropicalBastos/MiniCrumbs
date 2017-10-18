@@ -3,6 +3,7 @@
     "description": "Portable lightweight breadcrumbs library",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "authors": [
         {
             "name": "TropicalBastos",
