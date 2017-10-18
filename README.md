@@ -37,8 +37,13 @@ The Minicrumbs constructor takes the following arguments:
 MiniCrumbs($format = 'standard', $home='home', $options = array())
 ```
 
-#### Format: 'upper', 'lower', ''standard' - (string) how the breadcrumbs should be formatted
-#### Home: defaults to ''home' - (string) alias for the first breadcrumb linking to home
-#### options: array of options - developer options for testing e.g ['test' => true]
+#### Format: 
+'upper', 'lower', ''standard' - (string) how the breadcrumbs should be formatted
+
+#### Home: 
+defaults to ''home' - (string) alias for the first breadcrumb linking to home
+
+#### Options:
+array of options - developer options for testing e.g ['test' => true]
 
 Thank you and feel free to contribute!
