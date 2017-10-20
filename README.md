@@ -1,6 +1,9 @@
 # MiniCrumbs
 Super portable, lightweight breadcrumbs library
 
+#### To install:
+```composer require breadcrumbs/minicrumbs```
+
 The way it works is it parses the request URI, ie. /home/about/company into an an iterable array of breadcrumb objects
 so that you can render something like: "Home | About | Company" in your markup with all the necessary links without you
 having to worry about the formatting, names or links.
