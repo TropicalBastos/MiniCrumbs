@@ -15,7 +15,7 @@ class MiniCrumbs{
     protected $fm;
     protected $breadcrumbs = null;
     protected $home = null;
-    protected $words_pattern = "/([+-_$%{}()])|(%20)/";
+    protected $words_pattern = "/([+\-_$%{}()])|(%20)/";
     protected $trailing_slash = "/\/$/";
 
     /*
